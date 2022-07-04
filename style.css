@@ -1,4 +1,4 @@
-section{
+.flexible-area{
   display:flex;
 }
 .half-width{
@@ -42,4 +42,38 @@ h1{
   padding:10px 40px;
   border-radius:10px;
 
+}
+.author{
+  color:orange
+}
+
+.experience-item{
+  box-shadow: 10px 10px 40px gray;
+  width:40%;
+  margin-left:5px;
+  margin-right:5px;
+  padding-left:100px;
+  border-radius:20px
+  
+
+
+
+}
+
+
+.experience-are{
+background-image:url(images/exp-bg.png);
+background-repeat:no-repeat;
+background-position:left
+
+}
+#ex-1{
+  border-left:10px solid tomato;
+}
+#ex-2{
+  border-left:10px solid blue;
+}
+
+footer{
+  text-align:center;
 }
